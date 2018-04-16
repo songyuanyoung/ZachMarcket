@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="splashBackgroundColor">#B2EBF2</color>
+    <color name="splashTextColor">#212121</color>
+    <color name="mainBackgroundColor">#00BCD4</color>
+
+<!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splashBackgroundColor">#1296db</color>
+    <color name="splashTextColor">#dbdbdb</color>
+    <color name="mainBackgroundColor">#383f50</color>
+
+-->
+
+    <color name="essence_tab_bg">#ffffff</color>
+    <color name="essence_tab_text_color_press">#1296db</color>
+    <color name="essence_tab_text_color_normal">#dbdbdb</color>
+    <color name="main_bottom_text_select">#1296db</color>
+    <color name="main_bottom_text_normal">#dbdbdb</color>
+    <color name="main_bottom_bg">#ffffff</color>
+
+
+
+</resources>

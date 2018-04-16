@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:id="@+id/container"
+    android:paddingTop="0dp"
+    tools:context="com.example.zhangwenpurdue.zachmarcket.SignUp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/replace"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/signupName"
+        style="@style/editText_style"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:inputType="textPersonName"
+        android:hint="User Name" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/signupEmail"
+        style="@style/editText_style"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:layout_below="@+id/signupName"
+        android:layout_alignLeft="@+id/signupName"
+        android:layout_alignStart="@+id/signupName" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/signupPhone"
+        style="@style/editText_style"
+        android:inputType="textPersonName"
+        android:hint="Phone Number"
+        android:layout_below="@+id/signupEmail"
+        android:layout_alignLeft="@+id/signupEmail"
+        android:layout_alignStart="@+id/signupEmail" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/signupPassword"
+        style="@style/editText_style"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@+id/signupPhone"
+        android:layout_alignLeft="@+id/signupPhone"
+        android:layout_alignStart="@+id/signupPhone" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/register"
+        style="@style/button_style"
+        android:layout_below="@+id/signupPassword"
+        android:text="Button"
+        android:layout_alignRight="@+id/signupPassword"
+        android:layout_alignEnd="@+id/signupPassword"
+        android:layout_alignLeft="@+id/signupPassword"
+        android:layout_alignStart="@+id/signupPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have account?"
+            android:textColor="@color/splashTextColor"/>
+
+        <TextView
+            android:id="@+id/signupLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text="Log In" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

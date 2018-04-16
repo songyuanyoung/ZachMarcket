@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:id="@+id/activity_main"
+
+
+    android:paddingTop="0dp"
+    tools:context="com.example.zhangwenpurdue.zachmarcket.MainActivity">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/replace"
+    android:orientation="vertical">
+</LinearLayout>
+    <!-- This is a comment
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/loginPhone"
+        style="@style/editText_style"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"
+
+
+
+        android:inputType="phone"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        style="@style/editText_style"
+        android:inputType="textPassword"
+        android:layout_below="@+id/loginPhone"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/loginPhone"
+        android:layout_alignStart="@+id/loginPhone"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/button_style"
+
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:layout_below="@+id/loginPassword"
+        android:layout_alignLeft="@+id/loginPassword"
+        android:layout_alignStart="@+id/loginPassword"
+        android:layout_alignRight="@+id/loginPassword"
+        android:layout_alignEnd="@+id/loginPassword" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:text="Don't have an acount?"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/loginSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget your password?" />
+
+        <TextView
+            android:id="@+id/loginReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Reset it"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+-->
+</RelativeLayout>

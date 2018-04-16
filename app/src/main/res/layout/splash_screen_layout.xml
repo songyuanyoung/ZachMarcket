@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@color/splashBackgroundColor"
+    tools:context="com.example.zhangwenpurdue.zachmarcket.SplashScreen">
+
+
+    <TextView
+        android:id="@+id/quoteSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashname"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Fresh Yourself Anywhere"
+        android:textSize="20dp"
+        android:textColor="@color/splashTextColor"/>
+
+    <TextView
+        android:id="@+id/splashname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Zach's Market"
+        android:textColor="@color/splashTextColor"
+        android:textSize="40dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+</RelativeLayout>

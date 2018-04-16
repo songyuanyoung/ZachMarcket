@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/address_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:hint="User Name"
+        android:layout_alignEnd="@+id/address_password"
+        android:layout_alignStart="@+id/address_password" />
+
+    <EditText
+        android:id="@+id/address_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/address_username"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/new_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/address_password"
+        android:layout_alignStart="@+id/address_password"
+        android:layout_below="@+id/address_password"
+        android:layout_marginTop="54dp"
+        android:hint="New Address"/>
+
+    <Button
+        android:id="@+id/add_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Update Address" />
+</RelativeLayout>
